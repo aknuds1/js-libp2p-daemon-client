@@ -8,9 +8,9 @@ chai.use(dirtyChai)
 chai.use(require('chai-as-promised'))
 const sinon = require('sinon')
 
-const { createDaemon } = require('libp2p-daemon/src/daemon')
+const { createDaemon } = require('@arve.knudsen/libp2p-daemon/src/daemon')
 const Client = require('../src')
-const { Response } = require('libp2p-daemon/src/protocol')
+const { Response } = require('@arve.knudsen/libp2p-daemon/src/protocol')
 
 const PeerId = require('peer-id')
 

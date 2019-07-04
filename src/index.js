@@ -5,7 +5,7 @@ const Socket = net.Socket
 const PeerID = require('peer-id')
 const multiaddr = require('multiaddr')
 const { encode, decode } = require('length-prefixed-stream')
-const { Request, Response } = require('libp2p-daemon/src/protocol')
+const { Request, Response } = require('@arve.knudsen/libp2p-daemon/src/protocol')
 const errcode = require('err-code')
 
 const DHT = require('./dht')

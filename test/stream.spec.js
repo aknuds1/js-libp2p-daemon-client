@@ -7,9 +7,9 @@ const expect = chai.expect
 chai.use(dirtyChai)
 
 const { decode } = require('length-prefixed-stream')
-const { createDaemon } = require('libp2p-daemon/src/daemon')
+const { createDaemon } = require('@arve.knudsen/libp2p-daemon/src/daemon')
 const Client = require('../src')
-const { StreamInfo } = require('libp2p-daemon/src/protocol')
+const { StreamInfo } = require('@arve.knudsen/libp2p-daemon/src/protocol')
 
 const { ends } = require('../src/util/iterator')
 const { getMultiaddr } = require('./utils')

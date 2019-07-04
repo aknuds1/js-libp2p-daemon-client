@@ -11,7 +11,7 @@ const {
   Response,
   DHTRequest,
   DHTResponse
-} = require('libp2p-daemon/src/protocol')
+} = require('@arve.knudsen/libp2p-daemon/src/protocol')
 
 class DHT {
   /**

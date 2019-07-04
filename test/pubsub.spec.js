@@ -9,8 +9,8 @@ const expect = chai.expect
 chai.use(dirtyChai)
 chai.use(chaiBytes)
 
-const { Response } = require('libp2p-daemon/src/protocol')
-const { createDaemon } = require('libp2p-daemon/src/daemon')
+const { Response } = require('@arve.knudsen/libp2p-daemon/src/protocol')
+const { createDaemon } = require('@arve.knudsen/libp2p-daemon/src/daemon')
 const Client = require('../src')
 
 const { getMultiaddr } = require('./utils')

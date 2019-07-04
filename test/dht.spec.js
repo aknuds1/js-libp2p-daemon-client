@@ -10,10 +10,10 @@ chai.use(chaiBytes)
 
 const sinon = require('sinon')
 
-const { createDaemon } = require('libp2p-daemon/src/daemon')
+const { createDaemon } = require('@arve.knudsen/libp2p-daemon/src/daemon')
 const Client = require('../src')
 const { ends } = require('../src/util/iterator')
-const { Response } = require('libp2p-daemon/src/protocol')
+const { Response } = require('@arve.knudsen/libp2p-daemon/src/protocol')
 
 const CID = require('cids')
 
