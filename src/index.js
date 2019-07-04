@@ -2,7 +2,7 @@
 
 const net = require('net')
 const Socket = net.Socket
-const PeerID = require('peer-id')
+const PeerID = require('@arve.knudsen/peer-id')
 const multiaddr = require('multiaddr')
 const { encode, decode } = require('length-prefixed-stream')
 const { Request, Response } = require('@arve.knudsen/libp2p-daemon/src/protocol')

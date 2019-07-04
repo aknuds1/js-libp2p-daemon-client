@@ -3,7 +3,7 @@
 const os = require('os')
 const path = require('path')
 const ma = require('multiaddr')
-const PeerID = require('peer-id')
+const PeerID = require('@arve.knudsen/peer-id')
 const isWindows = Boolean(os.type().match(/windows/gi))
 
 exports.getSockPath = (sockPath) => isWindows

@@ -1,7 +1,7 @@
 'use strict'
 
 const CID = require('cids')
-const PeerID = require('peer-id')
+const PeerID = require('@arve.knudsen/peer-id')
 const PeerInfo = require('peer-info')
 const multiaddr = require('multiaddr')
 const errcode = require('err-code')

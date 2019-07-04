@@ -12,7 +12,7 @@ const { createDaemon } = require('@arve.knudsen/libp2p-daemon/src/daemon')
 const Client = require('../src')
 const { Response } = require('@arve.knudsen/libp2p-daemon/src/protocol')
 
-const PeerId = require('peer-id')
+const PeerId = require('@arve.knudsen/peer-id')
 
 const { getMultiaddr } = require('./utils')
 const defaultMultiaddr = getMultiaddr('/tmp/p2pd.sock')
