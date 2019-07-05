@@ -1,8 +1,8 @@
 {
-  "name": "libp2p-daemon-client",
+  "name": "@arve.knudsen/libp2p-daemon-client",
   "version": "0.2.1",
   "description": "libp2p-daemon client implementation",
-  "leadMaintainer": "Vasco Santos <santos.vasco10@gmail.com>",
+  "leadMaintainer": "Arve Knudsen <arve.knudsen@gmail.com>",
   "files": [
     "dist",
     "src"
@@ -22,9 +22,9 @@
     "npm": ">=6.0.0"
   },
   "bugs": {
-    "url": "https://github.com/libp2p/js-libp2p-daemon-client/issues"
+    "url": "https://github.com/aknuds1/js-libp2p-daemon-client/issues"
   },
-  "homepage": "https://github.com/libp2p/js-libp2p-daemon-client",
+  "homepage": "https://github.com/aknuds1/js-libp2p-daemon-client",
   "keywords": [
     "libp2p"
   ],
@@ -42,7 +42,7 @@
     "cids": "~0.7.1",
     "err-code": "^1.1.2",
     "length-prefixed-stream": "github:jacobheun/length-prefixed-stream#v2.0.0-rc.1",
-    "@arve.knudsen/libp2p-daemon": "~0.2.2",
+    "@arve.knudsen/libp2p-daemon": "~0.2.7",
     "multiaddr": "^6.1.0",
     "@arve.knudsen/peer-id": "~0.12.5",
     "peer-info": "~0.15.1",
